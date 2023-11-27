@@ -50,16 +50,24 @@ Detectron2 requires a step of data registration for those who want to use the ex
 Please modify these lines in `./adet/data/datasets/cis.py` corresponding to your local paths:
 ```
 # change the paths 
-DATASET_ROOT = 'COD10K-v3'
-ANN_ROOT = os.path.join(DATASET_ROOT, 'annotations')
-TRAIN_PATH = os.path.join(DATASET_ROOT, 'Train/Image')
-TEST_PATH = os.path.join(DATASET_ROOT, 'Test/Image')
-TRAIN_JSON = os.path.join(ANN_ROOT, 'train_instance.json')
-TEST_JSON = os.path.join(ANN_ROOT, 'test2026.json')
+COD10K_ROOT = 'COD10K-v3'
+COD10K_ANN_ROOT = os.path.join(COD10K_ROOT, 'annotations')
+COD10K_TRAIN_PATH = os.path.join(COD10K_ROOT, 'Train/Image')
+COD10K_TEST_PATH = os.path.join(COD10K_ROOT, 'Test/Image')
+COD10K_TRAIN_JSON = os.path.join(COD10K_ANN_ROOT, 'train_instance.json')
+COD10K_TEST_JSON = os.path.join(COD10K_ANN_ROOT, 'test2026.json')
 
 NC4K_ROOT = 'NC4K'
 NC4K_PATH = os.path.join(NC4K_ROOT, 'Imgs')
 NC4K_JSON = os.path.join(NC4K_ROOT, 'nc4k_test.json')
+
+CAMOPP_ROOT = 'camopp'
+CAMOPP_ANN_ROOT = os.path.join(CAMOPP_ROOT, 'Annotations')
+CAMOPP_TRAIN_PATH = os.path.join(CAMOPP_ROOT, 'Publish/Image/Train')
+CAMOPP_TEST_PATH = os.path.join(CAMOPP_ROOT, 'Publish/Image/Test')
+CAMOPP_TRAIN_JSON = os.path.join(CAMOPP_ANN_ROOT, 'train.json')
+CAMOPP_TEST_JSON = os.path.join(CAMOPP_ANN_ROOT, 'test.json')
+
 ```
 
 ## 3. Training Pipeline
