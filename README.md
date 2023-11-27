@@ -67,7 +67,6 @@ CAMOPP_TRAIN_PATH = os.path.join(CAMOPP_ROOT, 'Publish/Image/Train')
 CAMOPP_TEST_PATH = os.path.join(CAMOPP_ROOT, 'Publish/Image/Test')
 CAMOPP_TRAIN_JSON = os.path.join(CAMOPP_ANN_ROOT, 'train.json')
 CAMOPP_TEST_JSON = os.path.join(CAMOPP_ANN_ROOT, 'test.json')
-
 ```
 
 ## 3. Training Pipeline
@@ -131,7 +130,7 @@ We provide the checkpoints of our final model on PVT backbone under two versions
 ## 4. Visualization
 
 <p align="center">
-  <img width="600" src="/visualization/visualization.png">
+  <img width="800" src="/visualization/visualization.png">
 </p>
 
 ## Citation
