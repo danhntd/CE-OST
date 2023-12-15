@@ -76,8 +76,10 @@ Our proposed CE-OST framework:
 
 ### 3.1 Contour Emphasis
 
+Make sure to create these folders ```contrast, contrast_temp, white, white_temp``` by the ```mkdir``` command or adjust in the source below.
+
 ```
-CUDA_VISIBLE_DEVICES=0 python add_hed/add_bd_grid.py \
+CUDA_VISIBLE_DEVICES=0 python contour_emphasis/add_bd_grid.py \
                     --dataset_path ./path/to/dataset/ \
                     --output_path ./path/to/output/dir/
 ```
