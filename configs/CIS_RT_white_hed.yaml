@@ -1,0 +1,11 @@
+_BASE_: "Base-camo-white-hed-CIS.yaml"
+INPUT:
+  MIN_SIZE_TEST: 550
+  MIN_SIZE_TRAIN: (550,)
+MODEL:
+  OSFormer:
+    ENC_LAYERS: 3
+    DEC_LAYERS: 3
+  WEIGHTS: "detectron2://ImageNetPretrained/MSRA/R-50.pkl"
+  RESNETS:
+    DEPTH: 50
