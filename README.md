@@ -1,7 +1,7 @@
 # CE-OST: Contour Emphasis for One-Stage Transformer-based Camouflage Instance Segmentation
 
 This repository is the official implementation of the paper entitled: **CE-OST: Contour Emphasis for One-Stage Transformer-based Camouflage Instance Segmentation**, presented at [MAPR2023](https://mapr.uit.edu.vn). <br>
-**Authors**: Thanh-Danh Nguyen, Duc-Tuan Luu, Vinh-Tiep Nguyen*, and Thanh Duc Ngo.
+**Authors**: Thanh-Danh Nguyen, Duc-Tuan Luu, Vinh-Tiep Nguyen*, and Thanh Duc Ngo
 
 [[Paper]](https://ieeexplore.ieee.org/document/10288682)
 
